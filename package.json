@@ -1,0 +1,21 @@
+{
+  "name": "yoga-sub-link-repo",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "vite dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.11.10",
+    "@graphql-yoga/apollo-link": "^3.10.2",
+    "graphql-yoga": "^5.10.2",
+    "http-server": "^14.1.1",
+    "react": "^18.3.1",
+    "vite": "^5.4.11"
+  }
+}
