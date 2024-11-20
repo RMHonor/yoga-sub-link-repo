@@ -9,8 +9,8 @@ We've got short-lived access tokens, so need to restart subscriptions hourly, we
 * Start the server: `npm run server`
 * Start the client: `npm run client`
 * Observe the console/network tab:
-  * The console will log ping: 0, up to 3
-  * The network tab will hold the subscription open until message 4
+  * The console will log ping: 1, 2
+  * The network tab will hold the subscription open until message 3
 
 ## Root cause
 

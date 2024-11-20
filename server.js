@@ -9,7 +9,7 @@ const yoga = createYoga({
       Subscription: {
         ping: {
           subscribe: async function* (_, { from }) {
-            for (let i = 0; i < 120; i++) {
+            for (let i = 1; i < 120; i++) {
               await setTimeout(4000)
               yield { ping: i }
             }
