@@ -21,7 +21,7 @@ class RetryableOperation {
       console.log("reconnecting");
       this.cancel();
       this.try();
-    }, 5000)
+    }, 10000)
   }
 
   cancel = () => {
